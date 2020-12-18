@@ -186,4 +186,5 @@ turncredentials = {
     transport = "{{ .Env.TURN_TRANSPORT | default "tcp" }}"
   }
 {{ end }}
+}
 {{ end }}
