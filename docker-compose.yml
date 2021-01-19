@@ -216,6 +216,11 @@ services:
             - JVB_AUTH_USER
             - JVB_AUTH_PASSWORD
             - JVB_BREWERY_MUC
+            - JVB_OCTO_ENABLED
+            - JVB_OCTO_BIND_ADDRESS
+            - JVB_OCTO_PUBLIC_ADDRESS
+            - JVB_OCTO_BIND_PORT
+            - JVB_OCTO_REGION
             - JVB_PORT
             - JVB_TCP_HARVESTER_DISABLED
             - JVB_TCP_PORT
