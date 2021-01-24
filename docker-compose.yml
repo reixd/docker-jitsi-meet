@@ -189,6 +189,7 @@ services:
             - JICOFO_AUTH_PASSWORD
             - JICOFO_OCTO_BRIDGE_SELECTION_STRATEGY
             - JICOFO_RESERVATION_REST_BASE_URL
+            - JICOFO_SHORT_ID
             - JVB_BREWERY_MUC
             - JIGASI_BREWERY_MUC
             - JIGASI_SIP_URI
