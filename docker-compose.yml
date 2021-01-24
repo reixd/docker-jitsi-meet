@@ -187,6 +187,7 @@ services:
             - JICOFO_COMPONENT_SECRET
             - JICOFO_AUTH_USER
             - JICOFO_AUTH_PASSWORD
+            - JVB_OCTO_ENABLED
             - JICOFO_OCTO_BRIDGE_SELECTION_STRATEGY
             - JICOFO_RESERVATION_REST_BASE_URL
             - JICOFO_SHORT_ID
