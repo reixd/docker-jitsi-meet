@@ -32,6 +32,7 @@ if [[ $DISABLE_HTTPS -ne 1 ]]; then
     # setup certbot renewal script
     if [[ ! -f /etc/periodic/weekly/letencrypt-renew ]]; then
       cp /defaults/letsencrypt-renew /etc/periodic/weekly/
+      chmod a+x /etc/periodic/weekly/letsencrypt-renew
     fi
   else
     # use self-signed certs
